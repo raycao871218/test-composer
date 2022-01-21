@@ -1,0 +1,22 @@
+{
+    "name": "caobowen/test-composer",
+    "description": "test a composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ray.cao",
+            "email": "ray.cao@colosgame.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "src/lib/helper.php"
+        ],
+        "psr-4": {
+            "caobowen\\composer\\":"src"
+        }
+    },
+    "require": {}
+}
