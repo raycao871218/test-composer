@@ -11,9 +11,6 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "files": [
-            "src/helper.php"
-        ],
         "psr-4": {
             "caobowen\\composer\\":"src"
         }
